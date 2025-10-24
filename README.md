@@ -8,47 +8,47 @@ but in the end, the directory should look as follows:
 
 
 NOTE: THIS NEEDS TO BE CHANGED SINCE WE DONT USE THE BENTHIC DATASET FROM CORALSEG
-├── data
-│   ├── benthic_datasets
-│   │   └── reef_support
-│   │       ├── SEAFLOWER_BOLIVAR
-│   │       │   ├── images
-│   │       │   ├── masks
-│   │       │   └── masks_stitched
-│   │       ├── SEAFLOWER_COURTOWN
-│   │       │   ├── images
-│   │       │   ├── masks
-│   │       │   └── masks_stitched
-│   │       ├── SEAVIEW_ATL
-│   │       │   ├── images
-│   │       │   ├── masks
-│   │       │   └── masks_stitched
-│   │       ├── SEAVIEW_IDN_PHL
-│   │       │   ├── images
-│   │       │   ├── masks
-│   │       │   └── masks_stitched
-│   │       ├── SEAVIEW_PAC_AUS
-│   │       │   ├── images
-│   │       │   ├── masks
-│   │       │   └── masks_stitched
-│   │       ├── SEAVIEW_PAC_USA
-│   │       │   ├── images
-│   │       │   ├── masks
-│   │       │   └── masks_stitched
-│   │       ├── TETES_PROVIDENCIA
-│   │       │   ├── images
-│   │       │   ├── masks
-│   │       │   └── masks_stitched
-│   │       └── UNAL_BLEACHING_TAYRONA
-│   │           ├── images
-│   │           ├── masks
-│   │           └── masks_stitched
-│   └── coral_bleaching
-│       ├── images
-│       ├── masks_bleached
-│       └── masks_non_bleached
-├── final.ipynb
-├── mask_labels.tar.gz
-├── README.md
-├── reef_support.tar.gz
-└── 
+├── data  
+│   ├── benthic_datasets  
+│   │   └── reef_support  
+│   │       ├── SEAFLOWER_BOLIVAR  
+│   │       │   ├── images  
+│   │       │   ├── masks  
+│   │       │   └── masks_stitched  
+│   │       ├── SEAFLOWER_COURTOWN  
+│   │       │   ├── images  
+│   │       │   ├── masks  
+│   │       │   └── masks_stitched  
+│   │       ├── SEAVIEW_ATL  
+│   │       │   ├── images  
+│   │       │   ├── masks  
+│   │       │   └── masks_stitched  
+│   │       ├── SEAVIEW_IDN_PHL  
+│   │       │   ├── images  
+│   │       │   ├── masks  
+│   │       │   └── masks_stitched  
+│   │       ├── SEAVIEW_PAC_AUS  
+│   │       │   ├── images  
+│   │       │   ├── masks  
+│   │       │   └── masks_stitched  
+│   │       ├── SEAVIEW_PAC_USA  
+│   │       │   ├── images  
+│   │       │   ├── masks  
+│   │       │   └── masks_stitched  
+│   │       ├── TETES_PROVIDENCIA  
+│   │       │   ├── images  
+│   │       │   ├── masks  
+│   │       │   └── masks_stitched  
+│   │       └── UNAL_BLEACHING_TAYRONA  
+│   │           ├── images  
+│   │           ├── masks  
+│   │           └── masks_stitched  
+│   └── coral_bleaching  
+│       ├── images  
+│       ├── masks_bleached  
+│       └── masks_non_bleached  
+├── final.ipynb  
+├── mask_labels.tar.gz  
+├── README.md  
+├── reef_support.tar.gz  
+└──   
