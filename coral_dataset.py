@@ -16,6 +16,7 @@ class CoralDataset(Dataset):
         row = self.df.loc[idx]
         img_path = row["image_path"]
         mask_path = row["mask_coral_path"]
+        source = row["source"]
 
         image = np.array(Image.open(img_path).convert("RGB"))
         mask = np.array(Image.open(mask_path).convert("L"))
@@ -26,4 +27,4 @@ class CoralDataset(Dataset):
             image = data["image"]
             mask = data["mask"].unsqueeze(0)  # [1,H,W] for BCE/Dice
 
-        return image, mask
+        return image, mask, source
